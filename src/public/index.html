@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets//apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="manifest" href="assets/site.webmanifest">
+  <title>Sitemap Generator</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <form>
+      <label for="sitemap-url">Generate sitemap for:</label><br />
+      <input type="text" id="sitemap-url" name="sitemap-url" placeholder="https://www.java.com/en/" /><br />
+      <input type="button" id="generate-btn" value="Generate" /><br />
+    </form>
+    <p>
+      Result: <br />
+      <div id="sitemap"></div>
+    </p>
+  </div>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/renderjson@1.4.0/renderjson.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
