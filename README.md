@@ -32,3 +32,9 @@ When running from generated JS code make sure "public" folder and contents insid
 Other available options are listed below scripts tag in package.json.
 
 If everything goes well you should be able to browse http://localhost:50010 and reach the web page where you can request sitemap generation for a site.
+
+### Screenshot
+
+<p align="left" style="width:600px">
+  <img src="https://raw.githubusercontent.com/wiki/garenyondem/sitemap-generator/result_screenshot.png">
+</p>
