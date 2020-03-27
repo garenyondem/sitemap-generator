@@ -21,6 +21,9 @@ You should be able to make request via Postman or browser from http://{$HOST}:88
 ### Development
 
 In order to run from source you'll need Node.js v12.16+ installed. Supported runtime version is also mentioned in .nvmrc file.
+```
+$ npm install
+```
 Then you can either run with nodemon or compile TS and run from JS output.
 
 ```
